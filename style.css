@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    height: 100vh;
+    background-image: url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-left: 120px;
+}
+
+.header_heading {
+    padding-top: 217px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+}
+
+.header_text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    width: 481px;
+}
+
+.header_button {
+    box-sizing: border-box;
+    background: #9C0332;
+    border-radius: 30px;
+    width: 234.06px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 12px;
+}
+
+.top {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(img/backtop.jpg);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 32px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 128px;
+}
+
+.top_text_1 {
+    background-image: url(img/play1.jpg);
+    width: 379px;
+    height: 300px;
+    border-radius: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.top_text_2 {
+    background-image: url(img/play2.jpg);
+    width: 379px;
+    height: 300px;
+    border-radius: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.top_text_3 {
+    background-image: url(img/play3.jpg);
+    width: 379px;
+    height: 300px;
+    border-radius: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
