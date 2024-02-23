@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-    height: 1024px;
+    height: 100vh;
     background-image: url(img/back.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -17,12 +17,11 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 32px;
-    padding-left: 120.22px;
+    padding-left: 120px;
 }
 
 .header_heading {
-    padding-top: 217.1px;
-    width: 788.78px;
+    padding-top: 217px;
     font-weight: 700;
     font-size: 64px;
     line-height: 78px;
@@ -42,7 +41,6 @@ body {
     background: #9C0332;
     border-radius: 30px;
     width: 234.06px;
-    height: 48.6px;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
